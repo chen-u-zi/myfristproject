@@ -5,9 +5,51 @@
     margin: 0;
 }
 body{
-    display: 0;
+    display: flex;
     justify-content: center;
 }
 .container{
     width: 1200px;
+    display: flex;
+}
+/*左欄區*/
+.header{
+    background-color: bisque;
+    width: 260px;
+    padding: 20px;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+.header h1{}
+.header img{}
+.header ul{
+    padding:30 pz;
+}
+.header li{}
+.header li a{
+    display: block;
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    height: 80px;
+    line-height: 80px;
+    border-bottom:#e5eadd 1 pz ditted;
+}
+.header li a:hover{}
+/*右欄區*/
+.content{
+    background: #999;
+    width: 820px;
+    padding: 20px 40px;
+}
+.content img{}
+.content h3{
+    font-size: 32px;
+    color:#000;
+    margin: 20px 0;
+    text-align: center;
+}
+.content p{
+    margin-bottom: 20px;
 }
