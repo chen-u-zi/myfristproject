@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: 0;
+    justify-content: center;
+}
+.container{
+    width: 1200px;
+}
